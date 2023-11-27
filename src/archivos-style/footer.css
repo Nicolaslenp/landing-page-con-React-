@@ -69,3 +69,15 @@ body{
     background-color: aqua;
     color: #24262b;
 }
+
+/* responsive  */ 
+@media(max-width:991px) {
+    .footer-r{
+        text-align: center;
+
+    }
+    .footer-link{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

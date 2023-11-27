@@ -3,7 +3,7 @@ import '../archivos-style/body.css';
 
 
 export function Body(){
-    return(
+    return( 
         <menu className="cuerpo">
         <section>
             <div className="titulo">
