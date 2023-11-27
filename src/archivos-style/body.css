@@ -1,0 +1,219 @@
+
+/* formulario  */
+div .titulo{  
+    color: aqua;
+    text-shadow: 0 0 10px black;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    background-image:url(../imagenes/fondo-a.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div .contacto{
+    max-height: 730px;
+    margin-top: 30px;
+    float: right;
+    background-color: rgb(39, 105, 134);
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+div .contacto-input{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+div h3{
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    color:#081d27 ;
+}
+div label{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+div input, textarea{
+    padding: 17px 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: azure;
+    border: 2px solid azure;
+    color: black;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(37, 63, 64);
+}
+
+div .politics-y-terms {
+    text-align: center;
+}
+
+div .politics-y-terms a{
+    color: rgb(27, 128, 216);
+}
+
+div .btn{
+    font-size: 23px;
+    color: cornsilk;
+    border-radius: 25px;
+    background-color: #1e6381;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+div .btn:hover{
+    background-color: skyblue;
+
+}
+
+/* ventajas  */
+
+div.ventajas{
+    display: flex;
+}
+
+div .ventaja{
+    margin: 30px;
+    border: 10px solid #081d27;
+    border-radius: 20px;
+    background-color: #081d27;
+    
+}
+
+h4{
+    color:aquamarine;
+    text-shadow: 2px black;
+    margin: 20px;
+}
+
+.p-vent{
+    color: bisque;
+    margin: 20px;
+}
+img{
+    max-width: 300px;
+}
+.imagen-ventajas{
+    display: flex;
+    justify-content: center;
+}
+
+/* planes  */
+
+
+
+.planes{
+    display: flex;
+}
+
+#but-p{
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.buttom-s{
+    margin: 10px 20px;
+    background-color: silver;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+}
+
+.caracteristicas-ps{
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.silver{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size:  30px; ;
+    width: 400px;
+    height: 100px;
+    color: #000000;
+    padding:15px 30px;
+    background: rgb(178, 192, 229);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.silver:hover{
+    transform: scale(1.2);
+    box-shadow:0 0 5px rgb(11, 9, 1);
+}
+
+.buttom-g{
+    margin: 10px 20px;
+    background-color: rgb(244, 165, 7);
+    text-align: center;
+    box-shadow: 0 0 5px black;
+}
+
+.caracteristicas-pg{
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.gold{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size:  30px; ;
+    width: 400px;
+    height: 100px;
+    color: #000000;
+    padding:15px 30px;
+    background: rgb(234, 208, 37);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.gold:hover{
+    transform: scale(1.2);
+    box-shadow:0 0 5px rgb(11, 9, 1);
+}
+
+.buttom-p{
+    margin: 10px 20px;
+    background-color: rgb(139, 137, 137);
+    text-align: center;
+    box-shadow: 0 0 5px black;
+}
+
+.caracteristicas-pp{
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.platinum{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size:  30px; ;
+    width: 400px;
+    height: 100px;
+    color: #000000;
+    padding:15px 30px;
+    background: rgb(87, 101, 137);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.platinum:hover{
+    transform: scale(1.2);
+    box-shadow:0 0 5px rgb(64, 62, 62);
+}

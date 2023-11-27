@@ -1,0 +1,70 @@
+
+
+header{
+    background: #1e6381;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+header .logo{
+    cursor: pointer;
+    margin-right:auto;
+}
+
+header .logo img{
+    height: 80px;
+    width: auto;
+    transition: 0.3s;
+}
+
+header .logo img:hover{
+    transform: rotate(360deg) scale(1.4);
+}
+
+header .nav-menu{
+    list-style: none;
+}
+
+header .nav-menu li{
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 15px;
+    margin: 20px;
+    background-color: rgb(143, 239, 175);
+    transition: .4s;
+} 
+
+header .nav-menu li:hover{
+    transform:scale(1.2);
+}
+
+header .nav-menu a{
+    font-size: 700;
+    color: #000000;
+    text-decoration: none;
+}
+
+header .nav-menu li a:hover{
+    color:rgb(33, 39, 45);
+}
+
+.account{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #000000;
+    padding:15px 30px;
+    background: rgb(178, 192, 229);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.35s ease 0s;
+}
+
+.account:hover{
+    background-color: aqua;
+    color: #02080b;
+    transform: scale(1.5);
+}

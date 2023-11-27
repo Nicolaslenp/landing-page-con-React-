@@ -1,0 +1,15 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body{
+    font-size: 25px;
+    font-family: cursive;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(45,253,212,1) 100%);
+}
+
